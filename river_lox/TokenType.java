@@ -1,0 +1,24 @@
+package river_lox;
+
+enum TokenType {
+  // Single-character.
+  LEFT_PAREN, RIGHT_PAREN, LEFT_BRACE, RIGHT_BRACE,
+  LEFT_BRACKET, RIGHT_BRACKET, COMMA, DOT, MINUS, PLUS,
+  SEMICOLON, SLASH, STAR, COLON,
+
+  // One or two character.
+  BANG, BANG_EQUAL,
+  EQUAL, EQUAL_EQUAL,
+  GREATER, GREATER_EQUAL,
+  LESS, LESS_EQUAL,
+  ARROW,
+
+  // Literals.
+  IDENTIFIER, STRING, NUMBER,
+
+  // Keywords.
+  VAR, RIV, JOIN, OUT, LIST, CAT, RAIN_KW,
+  PRINT, TRUE, FALSE, NIL,
+
+  EOF
+}

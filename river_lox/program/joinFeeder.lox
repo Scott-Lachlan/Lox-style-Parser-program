@@ -1,0 +1,4 @@
+riv feeder1 = rain;
+riv feeder2 = rain;
+join mainRiver(feeder1, feeder2);
+out mainRiver;
